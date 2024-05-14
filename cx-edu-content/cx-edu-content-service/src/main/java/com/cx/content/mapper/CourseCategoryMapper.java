@@ -2,6 +2,8 @@ package com.cx.content.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.cx.content.model.po.CourseCategory;
+import org.apache.ibatis.annotations.Many;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -10,6 +12,7 @@ import com.cx.content.model.po.CourseCategory;
  *
  * @author itcast
  */
+@Mapper
 public interface CourseCategoryMapper extends BaseMapper<CourseCategory> {
 
 }
